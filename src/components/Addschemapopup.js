@@ -175,9 +175,9 @@ const Addschemapopup = ({ setShowPopup }) => {
             </option>
           ))}
         </select>
-        <a href="" onClick={handleAddNewSchema}>
+        <button className="link" onClick={handleAddNewSchema}>
           + Add new schema
-        </a>
+        </button>
         <p className="status-msg">{statusMessage}</p>
       </main>
       <footer className="footer">
